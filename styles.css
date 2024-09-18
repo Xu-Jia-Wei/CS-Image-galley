@@ -1,0 +1,30 @@
+body {
+    display: flex; /* 使用flexbox布局 */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.gallery {
+    text-align: center;
+}
+
+.large-img {
+    width: 800px; /* 大图宽度 */
+    height: 800px; /* 大图高度 */
+    transition: filter 0.3s; /* 图片亮度切换的过渡效果 */
+}
+
+.thumbnails {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.small-img {
+    width: 200px; /* 小图宽度 */
+    height: 200px; /* 小图高度 */
+    margin: 0 5px;
+}

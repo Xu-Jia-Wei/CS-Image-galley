@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>图片画廊</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="gallery">
+        <!-- 大图展示区域 -->
+        <img id="mainImage" src="image1.png" alt="Main Display" class="large-img">
+        <button id="切换亮度" class="btn">亮</button>
+
+        <!-- 小图点击区域1 -->
+        <div class="thumbnails">
+            <img src="image1.png" alt="图片走丢咯" title="M9 刺刀（★） | 伽玛多普勒 (崭新出厂)" class="small-img" onclick="changeImage('image1.png')">
+            <img src="image2.png" alt="图片走丢咯" title="运动手套（★） | 双栖 (崭新出厂)" class="small-img" onclick="changeImage('image2.png')">
+            <img src="image3.png" alt="图片走丢咯" title="AK-47 | 火神 (崭新出厂)" class="small-img" onclick="changeImage('image3.png')">
+            <img src="image4.png" alt="图片走丢咯" title="沙漠之鹰 | 印花集 (崭新出厂)" class="small-img" onclick="changeImage('image4.png')">
+        </div>
+
+        <!-- 小图点击区域2 -->
+        <div class="thumbnails">
+            <img src="image5.png" alt="图片走丢咯" title="蝴蝶刀（★） | 渐变之色 (崭新出厂)" class="small-img" onclick="changeImage('image5.png')">
+            <img src="image6.png" alt="图片走丢咯" title="运动手套（★） | 潘多拉之盒 (崭新出厂)" class="small-img" onclick="changeImage('image6.png')">
+            <img src="image7.png" alt="图片走丢咯" title="M4A1 消音型 | 印花集 (崭新出厂)" class="small-img" onclick="changeImage('image7.png')">
+            <img src="image8.png" alt="图片走丢咯" title="AWP（纪念品） | 巨龙传说 (崭新出厂)" class="small-img" onclick="changeImage('image8.png')">
+        </div>
+    </div>
+   
+    <script src="script.js"></script>
+</body>
+
+</html>
